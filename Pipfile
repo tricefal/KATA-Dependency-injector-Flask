@@ -11,6 +11,9 @@ autopep8 = "*"
 pytest = "*"
 bootstrap-flask = "*"
 pygithub = "*"
+pytest-mock = "*"
+pytest-cov = "*"
+pytest-flask = "*"
 
 [dev-packages]
 
