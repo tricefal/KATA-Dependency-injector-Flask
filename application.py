@@ -5,6 +5,7 @@ from flask_bootstrap import Bootstrap
 
 def create_app() -> Flask:
 	container = Container()
+	container.config.from_ini('config.ini')
 
 	app = Flask(__name__)
 	app.container = container
